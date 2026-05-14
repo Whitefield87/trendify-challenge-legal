@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Trendify</title>
+    <style>
+        :root {
+            --primary-color: #e91e63; /* Il rosa tipico del colorSchemeSeed: pink */
+            --bg-color: #000000;
+            --surface-color: #121212;
+            --text-main: #ffffff;
+            --text-dim: rgba(255, 255, 255, 0.54);
+            --text-footer: rgba(255, 255, 255, 0.24);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Gradiente simile al Container della LoginScreen */
+        .scaffold {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(
+                to bottom,
+                var(--surface-color) 0%,
+                rgba(233, 30, 99, 0.1) 100%
+            );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        /* Icona Videocam come nel codice Flutter */
+        .icon {
+            color: var(--primary-color);
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 8px; /* Look moderno come nel testo TRENDIFY */
+            margin: 10px 0;
+            color: var(--text-main);
+        }
+
+        .tagline {
+            color: var(--text-dim);
+            letter-spacing: 2px;
+            font-size: 10px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(233, 30, 99, 0.2);
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 18px;
+            margin-top: 25px;
+            border-bottom: 1px solid rgba(233, 30, 99, 0.3);
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 14px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 10px;
+            color: var(--text-footer);
+        }
+
+        strong {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="scaffold">
+        <div class="container">
+            <div class="header">
+                <div class="icon">🎥</div>
+                <h1>TRENDIFY</h1>
+                <div class="tagline">Privacy Policy</div>
+            </div>
+
+            <div class="content">
+                <p><strong>Ultimo aggiornamento:</strong> 14 Maggio 2026</p>
+                
+                <p>Benvenuto su Trendify. La tua privacy è fondamentale per noi. Questa informativa spiega come gestiamo i tuoi dati quando utilizzi la nostra applicazione mobile.</p>
+
+                <h2>1. Accesso tramite Google</h2>
+                <p>Trendify utilizza <strong>Google Sign-In</strong> per l'autenticazione. Raccogliamo esclusivamente il tuo indirizzo email, il nome e l'immagine del profilo forniti da Google per creare e gestire il tuo account in modo sicuro tramite Firebase.</p>
+
+                <h2>2. Utilizzo della Fotocamera</h2>
+                <p>L'App richiede il permesso di accesso alla <strong>Fotocamera</strong>. Questo è necessario esclusivamente per permetterti di registrare video e partecipare alle sfide (challenges) all'interno della piattaforma. Nessun video viene registrato o trasmesso senza il tuo esplicito comando.</p>
+
+                <h2>3. Conservazione dei Dati</h2>
+                <p>I tuoi dati sono conservati in modo criptato sui server di <strong>Google Firebase</strong>. Non condividiamo né vendiamo le tue informazioni personali a terze parti per scopi di marketing.</p>
+
+                <h2>4. Eliminazione Account</h2>
+                <p>Puoi richiedere l'eliminazione completa del tuo account e di tutti i dati associati direttamente dall'App o inviando una mail a <strong>[TUA_EMAIL_QUI]</strong>.</p>
+            </div>
+
+            <div class="footer">
+                Trendify - Secure Social Challenges Experience
+            </div>
+        </div>
+    </div>
+</body>
+</html>
